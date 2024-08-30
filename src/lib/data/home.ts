@@ -3,39 +3,38 @@ import { getSkills } from './skills';
 
 export const title = 'Home';
 
-export const name = 'Name';
+export const name = 'Hesham';
 
-export const lastName = 'LastName';
+export const lastName = 'Ali';
 
 export const description =
-	'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!';
-
+'I’m Hesham Ali from Egypt, a Software Engineer specializing in Front-End development with one year of experience in web development and design.'
 export const links: Array<{ platform: Platform; link: string }> = [
-	{ platform: Platform.GitHub, link: 'https://github.com/' },
+	{ platform: Platform.GitHub, link: 'https://github.com/HeshamAliAhma' },
 	{
 		platform: Platform.Linkedin,
-		link: 'https://www.linkedin.com/'
+		link: 'https://www.linkedin.com/in/heshamali-programmer/'
 	},
-	{
-		platform: Platform.Twitter,
-		link: 'https://twitter.com/'
-	},
+	// {
+	// 	platform: Platform.Twitter,
+	// 	link: 'https://twitter.com/'
+	// },
 	{
 		platform: Platform.StackOverflow,
-		link: 'https://stackoverflow.com/'
+		link: 'https://stackoverflow.com/users/27092951/hesham'
 	},
 	{
 		platform: Platform.Email,
-		link: 'riadh_adrani@hotmail.fr'
+		link: 'heshammr.robot@gmail.com'
 	},
-	{
-		platform: Platform.Youtube,
-		link: 'https://www.youtube.com'
-	},
+	// {
+	// 	platform: Platform.Youtube,
+	// 	link: 'https://www.youtube.com'
+	// },
 	{
 		platform: Platform.Facebook,
-		link: 'https://www.facebook.com'
-	}
+		link: 'https://www.facebook.com/profile.php?id=100019250237479'
+	},
 ];
 
-export const skills = getSkills('js', 'css', 'html', 'reactjs', 'sass', 'svelte', 'ts');
+export const skills = getSkills('js', 'css', 'html', 'reactjs', 'sass', 'ts');
