@@ -12,7 +12,7 @@ export const items: Array<Education> = [
 		period: { "from": new Date(2024, 0, 1), "to": new Date(2024, 4, 31) },
 		shortDescription: "A comprehensive course on JavaScript taught by Osama Elzero, covering core and advanced topics.",
 		slug: "mastering-javascript-course",
-		subjects: ["JavaScript"]
+		subjects: ["JavaScript","OOP"]
 	},
 	{
 		degree: "Mastering Frontend Engineer Course",
